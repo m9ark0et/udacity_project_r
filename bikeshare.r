@@ -207,16 +207,17 @@ qplot(x=y,data=yz,bins=24,
 # Also we can see 2 peaks before and after work (8AM an 5PM).
 
 # Here we can find absolute numbers of users by Gender and percentage
+hour <- yz$y
 # total
-length(yz$y)
+length(hour)
 #Male
-c(length(subset(yz$y,yz$z=="Male")),
-  length(subset(yz$y,yz$z=="Male"))/length(yz$y)*100)
+c(length(subset(hour,yz$z=="Male")),
+  length(subset(hour,yz$z=="Male"))/length(hour)*100)
 
 #Female
-c(length(subset(yz$y,yz$z=="Female")),
-  length(subset(yz$y,yz$z=="Female"))/length(yz$y)*100)
+c(length(subset(hour,yz$z=="Female")),
+  length(subset(hour,yz$z=="Female"))/length(hour)*100)
 
 #Undefined
 c(length(subset(new.york$V10,yz$z=="")),
-  length(subset(new.york$V10,yz$z==""))/length(yz$y)*100)
+  length(subset(new.york$V10,yz$z==""))/length(hour)*100)
