@@ -1,17 +1,22 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+14/08/2023
 
 ### Project Title
-Replace the Project Title
+Udacity - R Project - Bike sharing
 
 ### Description
-Describe what your project is about and what it does
+Analysis of clients who rent bikes
 
 ### Files used
-Include the files used
+chicago.csv
+new-york-city.csv
+bikeshare.r
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/udacity/pdsnd_github
 
+
+New comment 1
+New comment 2
