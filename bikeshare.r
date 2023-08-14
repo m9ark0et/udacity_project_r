@@ -208,16 +208,17 @@ qplot(x=y,data=yz,bins=24,
 
 # Here we can find absolute numbers of users by Gender and percentage
 hour <- yz$y
+gender <- yz$z
 # total
 length(hour)
 #Male
-c(length(subset(hour,yz$z=="Male")),
-  length(subset(hour,yz$z=="Male"))/length(hour)*100)
+c(length(subset(hour,gender=="Male")),
+  length(subset(hour,gender=="Male"))/length(hour)*100)
 
 #Female
-c(length(subset(hour,yz$z=="Female")),
-  length(subset(hour,yz$z=="Female"))/length(hour)*100)
+c(length(subset(hour,gender=="Female")),
+  length(subset(hour,gender=="Female"))/length(hour)*100)
 
 #Undefined
-c(length(subset(new.york$V10,yz$z=="")),
-  length(subset(new.york$V10,yz$z==""))/length(hour)*100)
+c(length(subset(new.york$V10,gender=="")),
+  length(subset(new.york$V10,gender==""))/length(hour)*100)
