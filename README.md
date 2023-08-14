@@ -7,7 +7,7 @@
 Udacity - R Project - Bike sharing
 
 ### Description
-Describe what your project is about and what it does
+Analysis of clients who rent bikes
 
 ### Files used
 Include the files used
